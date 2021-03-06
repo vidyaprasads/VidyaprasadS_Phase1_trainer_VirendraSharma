@@ -17,7 +17,7 @@ static void folderCreation()
      fileList.mkdir();
      }  
     path=fileList.getAbsolutePath();
-    System.out.println(" path"+path);
+   
 }        
 
 static void addNewFile(String addFile)
@@ -91,10 +91,10 @@ static void ascendingOrderSorting()
 
 static void methodForOption2(){
       
-               System.out.println("1-->Add a file to existing directory" );
-               System.out.println("2-->Delete specified file from the existing directory" );
-               System.out.println("3-->Search file from the main director" );
-               System.out.println("4-->Main menu" );
+               System.out.println("  "+"1-->Add a file to existing directory" );
+               System.out.println("  "+"2-->Delete specified file from the existing directory" );
+               System.out.println("  "+"3-->Search file from the main director" );
+               System.out.println("  "+"4-->Main menu" );
                
                Scanner mymenuObj = new Scanner(System.in);  
                String userInput1 = mymenuObj.nextLine();
@@ -138,13 +138,13 @@ static void methodForOption2(){
 public static void welcomeMethod()
  {            
 System.out.println("********************************************************");
-System.out.println("WELCOME TO Lockers Pvt.Ltd developed by Vidyaprasad S");
+System.out.println("WELCOME TO LockedMe.com developed by Vidyaprasad S");
 System.out.println("********************************************************");         
  }
 
 public static void mainMenuFunction()
  {            
-    System.out.println("please enter the input 1 or 2 or 3");
+    System.out.println("\n"+"please enter the input 1 or 2 or 3");
     System.out.println("1-->to display current file names in ascending order");
     System.out.println("2-->to Add  Delete and Search the file ");
     System.out.println("3-->Exit ");
